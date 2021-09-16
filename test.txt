@@ -1,0 +1,12 @@
+Here is the APIs flow that shows how to get the temperature of ‘苏州’：
+·         Get the province code of China
+o    http://www.weather.com.cn/data/city3jdata/china.html
+·         Get the city code of one certain province
+o    http://www.weather.com.cn/data/city3jdata/provshi/10119.html
+o    ‘10119’ is ‘province code’
+·         Get the county code of one certain city
+o    http://www.weather.com.cn/data/city3jdata/station/1011904.html
+o    ‘1011904’ is ‘province code + city code’
+·         Get the weather of one certain county
+o    http://www.weather.com.cn/data/sk/101190401.html
+o    ‘101190401’ is ‘province code + city code + county code.’
